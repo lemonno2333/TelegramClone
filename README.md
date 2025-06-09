@@ -4,6 +4,8 @@
 
 食用方法：
 
+在Telegram客户端中选择导出html格式聊天记录
+
 将该脚本置于TG聊天数据的根目录
 
 根目录文件大致为
@@ -27,7 +29,6 @@
 pip install beautifulsoup4
 
 运行即可。
-
 
 
 运行后会在chats目录中，chat_01等文件夹内生成 export_weclone.csv 文件，将整个 chats 文件夹内的内容放入WeClone项目的 .\dataset\csv 文件夹中即可。
